@@ -356,22 +356,25 @@
       </div>
     </div>
 
-   <!-- ФОТО: картинки лежат рядом с index.html -->
-<div class="portrait reveal">
-  <picture>
-    <source
-      type="image/webp"
-      srcset="polenko-800.webp 800w, polenko.webp 1400w"
-      sizes="(max-width:960px) 92vw, 46vw" />
-    <img
-      src="polenko.jpg"
-      srcset="polenko-800.jpg 800w, polenko.jpg 1400w"
-      sizes="(max-width:960px) 92vw, 46vw"
-      width="1400" height="2100"
-      alt="Поленко Василий Владимирович — психотерапевт, психиатр, психолог"
-      decoding="async" />
-  </picture>
-</div>
+    <!-- 🔴 ФОТО: файлы лежат в assets/ (polenko.jpg / .webp + версии на 800px) -->
+    <div class="portrait reveal">
+      <picture>
+        <source
+          type="image/webp"
+          srcset="assets/polenko-800.webp 800w, assets/polenko.webp 1400w"
+          sizes="(max-width:960px) 92vw, 46vw" />
+        <img
+          src="assets/polenko.jpg"
+          srcset="assets/polenko-800.jpg 800w, assets/polenko.jpg 1400w"
+          sizes="(max-width:960px) 92vw, 46vw"
+          width="1400" height="2100"
+          alt="Поленко Василий Владимирович — психотерапевт, психиатр, психолог"
+          decoding="async" />
+      </picture>
+    </div>
+  </div>
+</section>
+
 <div class="divider"></div>
 
 <!-- ░░ Обо мне ░░ -->
